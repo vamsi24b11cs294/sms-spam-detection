@@ -1,0 +1,16 @@
+ Optional training data
+
+Place your labeled SMS dataset here as `spam.csv` to train the machine-learning classifier. Supported columns are `label,message` or original UCI `v1,v2`. Use labels such as `ham` and `spam`. Do not add private messages, real OTPs, or personal information.
+
+The website works without this file using a clearly identified rule-based fallback.
+label,message
+ham,Hey are we still meeting for lunch today
+ham,Please call me when you reach home
+ham,Your appointment is confirmed for tomorrow
+ham,Thanks for sending the notes
+ham,I will be there in ten minutes
+spam,CONGRATULATIONS you have won a free prize claim now
+spam,URGENT claim your cash reward by clicking this link
+spam,You are a lottery winner send your details now
+spam,Verify your account immediately to avoid suspension
+spam,Limited time offer buy now and get a discount
